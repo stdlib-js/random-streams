@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/random-streams",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Standard library pseudorandom number generator streams.",
   "license": "Apache-2.0",
   "author": {
