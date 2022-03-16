@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/random-streams",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "Pseudorandom number generator streams.",
   "license": "Apache-2.0",
   "author": {
@@ -153,6 +153,7 @@
     "@stdlib/random-base-uniform": "^0.0.x",
     "@stdlib/random-base-weibull": "^0.0.x",
     "@stdlib/streams-node-inspect-sink": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/string-replace": "^0.0.x",
     "@stdlib/time-now": "^0.0.x",
     "@stdlib/utils-copy": "^0.0.x",
