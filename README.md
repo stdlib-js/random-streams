@@ -24,20 +24,30 @@ limitations under the License.
 
 > Pseudorandom number generator (PRNG) streams.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/random-streams
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-streams@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { arcsine, bernoulli, beta, betaprime, binomial, boxMuller, cauchy, chi, chisquare, cosine, discreteUniform, erlang, exponential, f, frechet, gamma, geometric, gumbel, hypergeometric, improvedZiggurat, invgamma, kumaraswamy, laplace, levy, logistic, lognormal, minstd, minstdShuffle, mt19937, negativeBinomial, normal, pareto1, poisson, randi, randn, randu, rayleigh, t, triangular, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-streams@esm/index.mjs';
+var ns = require( '@stdlib/random-streams' );
 ```
 
 #### ns
@@ -113,20 +123,11 @@ The namespace contains the following functions for creating readable pseudorando
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-streams@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/random-streams' );
 
 console.log( objectKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -150,7 +151,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -194,7 +195,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -212,87 +213,87 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/random/streams/arcsine]: https://github.com/stdlib-js/random-streams-arcsine/tree/esm
+[@stdlib/random/streams/arcsine]: https://github.com/stdlib-js/random-streams-arcsine
 
-[@stdlib/random/streams/bernoulli]: https://github.com/stdlib-js/random-streams-bernoulli/tree/esm
+[@stdlib/random/streams/bernoulli]: https://github.com/stdlib-js/random-streams-bernoulli
 
-[@stdlib/random/streams/beta]: https://github.com/stdlib-js/random-streams-beta/tree/esm
+[@stdlib/random/streams/beta]: https://github.com/stdlib-js/random-streams-beta
 
-[@stdlib/random/streams/betaprime]: https://github.com/stdlib-js/random-streams-betaprime/tree/esm
+[@stdlib/random/streams/betaprime]: https://github.com/stdlib-js/random-streams-betaprime
 
-[@stdlib/random/streams/binomial]: https://github.com/stdlib-js/random-streams-binomial/tree/esm
+[@stdlib/random/streams/binomial]: https://github.com/stdlib-js/random-streams-binomial
 
-[@stdlib/random/streams/box-muller]: https://github.com/stdlib-js/random-streams-box-muller/tree/esm
+[@stdlib/random/streams/box-muller]: https://github.com/stdlib-js/random-streams-box-muller
 
-[@stdlib/random/streams/cauchy]: https://github.com/stdlib-js/random-streams-cauchy/tree/esm
+[@stdlib/random/streams/cauchy]: https://github.com/stdlib-js/random-streams-cauchy
 
-[@stdlib/random/streams/chi]: https://github.com/stdlib-js/random-streams-chi/tree/esm
+[@stdlib/random/streams/chi]: https://github.com/stdlib-js/random-streams-chi
 
-[@stdlib/random/streams/chisquare]: https://github.com/stdlib-js/random-streams-chisquare/tree/esm
+[@stdlib/random/streams/chisquare]: https://github.com/stdlib-js/random-streams-chisquare
 
-[@stdlib/random/streams/cosine]: https://github.com/stdlib-js/random-streams-cosine/tree/esm
+[@stdlib/random/streams/cosine]: https://github.com/stdlib-js/random-streams-cosine
 
-[@stdlib/random/streams/discrete-uniform]: https://github.com/stdlib-js/random-streams-discrete-uniform/tree/esm
+[@stdlib/random/streams/discrete-uniform]: https://github.com/stdlib-js/random-streams-discrete-uniform
 
-[@stdlib/random/streams/erlang]: https://github.com/stdlib-js/random-streams-erlang/tree/esm
+[@stdlib/random/streams/erlang]: https://github.com/stdlib-js/random-streams-erlang
 
-[@stdlib/random/streams/exponential]: https://github.com/stdlib-js/random-streams-exponential/tree/esm
+[@stdlib/random/streams/exponential]: https://github.com/stdlib-js/random-streams-exponential
 
-[@stdlib/random/streams/f]: https://github.com/stdlib-js/random-streams-f/tree/esm
+[@stdlib/random/streams/f]: https://github.com/stdlib-js/random-streams-f
 
-[@stdlib/random/streams/frechet]: https://github.com/stdlib-js/random-streams-frechet/tree/esm
+[@stdlib/random/streams/frechet]: https://github.com/stdlib-js/random-streams-frechet
 
-[@stdlib/random/streams/gamma]: https://github.com/stdlib-js/random-streams-gamma/tree/esm
+[@stdlib/random/streams/gamma]: https://github.com/stdlib-js/random-streams-gamma
 
-[@stdlib/random/streams/geometric]: https://github.com/stdlib-js/random-streams-geometric/tree/esm
+[@stdlib/random/streams/geometric]: https://github.com/stdlib-js/random-streams-geometric
 
-[@stdlib/random/streams/gumbel]: https://github.com/stdlib-js/random-streams-gumbel/tree/esm
+[@stdlib/random/streams/gumbel]: https://github.com/stdlib-js/random-streams-gumbel
 
-[@stdlib/random/streams/hypergeometric]: https://github.com/stdlib-js/random-streams-hypergeometric/tree/esm
+[@stdlib/random/streams/hypergeometric]: https://github.com/stdlib-js/random-streams-hypergeometric
 
-[@stdlib/random/streams/improved-ziggurat]: https://github.com/stdlib-js/random-streams-improved-ziggurat/tree/esm
+[@stdlib/random/streams/improved-ziggurat]: https://github.com/stdlib-js/random-streams-improved-ziggurat
 
-[@stdlib/random/streams/invgamma]: https://github.com/stdlib-js/random-streams-invgamma/tree/esm
+[@stdlib/random/streams/invgamma]: https://github.com/stdlib-js/random-streams-invgamma
 
-[@stdlib/random/streams/kumaraswamy]: https://github.com/stdlib-js/random-streams-kumaraswamy/tree/esm
+[@stdlib/random/streams/kumaraswamy]: https://github.com/stdlib-js/random-streams-kumaraswamy
 
-[@stdlib/random/streams/laplace]: https://github.com/stdlib-js/random-streams-laplace/tree/esm
+[@stdlib/random/streams/laplace]: https://github.com/stdlib-js/random-streams-laplace
 
-[@stdlib/random/streams/levy]: https://github.com/stdlib-js/random-streams-levy/tree/esm
+[@stdlib/random/streams/levy]: https://github.com/stdlib-js/random-streams-levy
 
-[@stdlib/random/streams/logistic]: https://github.com/stdlib-js/random-streams-logistic/tree/esm
+[@stdlib/random/streams/logistic]: https://github.com/stdlib-js/random-streams-logistic
 
-[@stdlib/random/streams/lognormal]: https://github.com/stdlib-js/random-streams-lognormal/tree/esm
+[@stdlib/random/streams/lognormal]: https://github.com/stdlib-js/random-streams-lognormal
 
-[@stdlib/random/streams/minstd-shuffle]: https://github.com/stdlib-js/random-streams-minstd-shuffle/tree/esm
+[@stdlib/random/streams/minstd-shuffle]: https://github.com/stdlib-js/random-streams-minstd-shuffle
 
-[@stdlib/random/streams/minstd]: https://github.com/stdlib-js/random-streams-minstd/tree/esm
+[@stdlib/random/streams/minstd]: https://github.com/stdlib-js/random-streams-minstd
 
-[@stdlib/random/streams/mt19937]: https://github.com/stdlib-js/random-streams-mt19937/tree/esm
+[@stdlib/random/streams/mt19937]: https://github.com/stdlib-js/random-streams-mt19937
 
-[@stdlib/random/streams/negative-binomial]: https://github.com/stdlib-js/random-streams-negative-binomial/tree/esm
+[@stdlib/random/streams/negative-binomial]: https://github.com/stdlib-js/random-streams-negative-binomial
 
-[@stdlib/random/streams/normal]: https://github.com/stdlib-js/random-streams-normal/tree/esm
+[@stdlib/random/streams/normal]: https://github.com/stdlib-js/random-streams-normal
 
-[@stdlib/random/streams/pareto-type1]: https://github.com/stdlib-js/random-streams-pareto-type1/tree/esm
+[@stdlib/random/streams/pareto-type1]: https://github.com/stdlib-js/random-streams-pareto-type1
 
-[@stdlib/random/streams/poisson]: https://github.com/stdlib-js/random-streams-poisson/tree/esm
+[@stdlib/random/streams/poisson]: https://github.com/stdlib-js/random-streams-poisson
 
-[@stdlib/random/streams/randi]: https://github.com/stdlib-js/random-streams-randi/tree/esm
+[@stdlib/random/streams/randi]: https://github.com/stdlib-js/random-streams-randi
 
-[@stdlib/random/streams/randn]: https://github.com/stdlib-js/random-streams-randn/tree/esm
+[@stdlib/random/streams/randn]: https://github.com/stdlib-js/random-streams-randn
 
-[@stdlib/random/streams/randu]: https://github.com/stdlib-js/random-streams-randu/tree/esm
+[@stdlib/random/streams/randu]: https://github.com/stdlib-js/random-streams-randu
 
-[@stdlib/random/streams/rayleigh]: https://github.com/stdlib-js/random-streams-rayleigh/tree/esm
+[@stdlib/random/streams/rayleigh]: https://github.com/stdlib-js/random-streams-rayleigh
 
-[@stdlib/random/streams/t]: https://github.com/stdlib-js/random-streams-t/tree/esm
+[@stdlib/random/streams/t]: https://github.com/stdlib-js/random-streams-t
 
-[@stdlib/random/streams/triangular]: https://github.com/stdlib-js/random-streams-triangular/tree/esm
+[@stdlib/random/streams/triangular]: https://github.com/stdlib-js/random-streams-triangular
 
-[@stdlib/random/streams/uniform]: https://github.com/stdlib-js/random-streams-uniform/tree/esm
+[@stdlib/random/streams/uniform]: https://github.com/stdlib-js/random-streams-uniform
 
-[@stdlib/random/streams/weibull]: https://github.com/stdlib-js/random-streams-weibull/tree/esm
+[@stdlib/random/streams/weibull]: https://github.com/stdlib-js/random-streams-weibull
 
 <!-- </toc-links> -->
 
