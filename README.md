@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-streams@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-streams@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { arcsine, bernoulli, beta, betaprime, binomial, boxMuller, cauchy, chi, chisquare, cosine, discreteUniform, erlang, exponential, f, frechet, gamma, geometric, gumbel, hypergeometric, improvedZiggurat, invgamma, kumaraswamy, laplace, levy, logistic, lognormal, minstd, minstdShuffle, mt19937, negativeBinomial, normal, pareto1, poisson, randi, randn, randu, rayleigh, t, triangular, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-streams@esm/index.mjs';
+import { arcsine, bernoulli, beta, betaprime, binomial, boxMuller, cauchy, chi, chisquare, cosine, discreteUniform, erlang, exponential, f, frechet, gamma, geometric, gumbel, hypergeometric, improvedZiggurat, invgamma, kumaraswamy, laplace, levy, logistic, lognormal, minstd, minstdShuffle, mt19937, negativeBinomial, normal, pareto1, poisson, randi, randn, randu, rayleigh, t, triangular, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-streams@v0.1.0-esm/index.mjs';
 ```
 
 #### ns
@@ -131,7 +131,7 @@ The namespace contains the following functions for creating readable pseudorando
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-streams@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-streams@v0.1.0-esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
