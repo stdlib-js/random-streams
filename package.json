@@ -38,7 +38,7 @@
   "dependencies": {
     "@stdlib/random-streams-arcsine": "^0.1.0",
     "@stdlib/random-streams-bernoulli": "^0.1.0",
-    "@stdlib/random-streams-beta": "^0.0.7",
+    "@stdlib/random-streams-beta": "^0.2.0",
     "@stdlib/random-streams-betaprime": "^0.1.0",
     "@stdlib/random-streams-binomial": "^0.1.0",
     "@stdlib/random-streams-box-muller": "^0.1.0",
