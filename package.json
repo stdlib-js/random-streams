@@ -80,9 +80,9 @@
     "@stdlib/utils-define-read-only-property": "^0.1.1"
   },
   "devDependencies": {
-    "@stdlib/array-int32": "^0.1.0",
-    "@stdlib/array-uint32": "^0.1.0",
-    "@stdlib/array-uint8": "^0.1.0",
+    "@stdlib/array-int32": "^0.1.1",
+    "@stdlib/array-uint32": "^0.1.1",
+    "@stdlib/array-uint8": "^0.1.1",
     "@stdlib/assert-has-own-property": "^0.1.1",
     "@stdlib/assert-is-boolean": "^0.1.1",
     "@stdlib/assert-is-browser": "^0.1.1",
@@ -108,7 +108,7 @@
     "@stdlib/fs-exists": "^0.1.1",
     "@stdlib/fs-read-file": "^0.1.1",
     "@stdlib/fs-unlink": "^0.1.1",
-    "@stdlib/math-base-assert-is-integer": "^0.1.0",
+    "@stdlib/math-base-assert-is-integer": "^0.1.1",
     "@stdlib/math-base-assert-is-nan": "^0.1.1",
     "@stdlib/object-assign": "^0.1.0",
     "@stdlib/process-exec-path": "^0.1.1",
