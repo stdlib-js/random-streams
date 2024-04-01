@@ -35,25 +35,32 @@ limitations under the License.
 
 > Pseudorandom number generator (PRNG) streams.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/random-streams
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-streams@deno/mod.js';
-```
-The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/random-streams/tags). For example,
-
-```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-streams@v0.2.1-deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { arcsine, bernoulli, beta, betaprime, binomial, boxMuller, cauchy, chi, chisquare, cosine, discreteUniform, erlang, exponential, f, frechet, gamma, geometric, gumbel, hypergeometric, improvedZiggurat, invgamma, kumaraswamy, laplace, levy, logistic, lognormal, minstd, minstdShuffle, mt19937, negativeBinomial, normal, pareto1, poisson, randi, randn, randu, rayleigh, t, triangular, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-streams@deno/mod.js';
+var ns = require( '@stdlib/random-streams' );
 ```
 
 #### ns
@@ -130,8 +137,8 @@ The namespace contains the following functions for creating readable pseudorando
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-streams@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/random-streams' );
 
 console.log( objectKeys( ns ) );
 ```
@@ -157,7 +164,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -187,8 +194,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/random-streams.svg
 [npm-url]: https://npmjs.org/package/@stdlib/random-streams
 
-[test-image]: https://github.com/stdlib-js/random-streams/actions/workflows/test.yml/badge.svg?branch=v0.2.1
-[test-url]: https://github.com/stdlib-js/random-streams/actions/workflows/test.yml?query=branch:v0.2.1
+[test-image]: https://github.com/stdlib-js/random-streams/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/random-streams/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/random-streams/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/random-streams?branch=main
@@ -222,87 +229,87 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/random/streams/arcsine]: https://github.com/stdlib-js/random-streams-arcsine/tree/deno
+[@stdlib/random/streams/arcsine]: https://github.com/stdlib-js/random-streams-arcsine
 
-[@stdlib/random/streams/bernoulli]: https://github.com/stdlib-js/random-streams-bernoulli/tree/deno
+[@stdlib/random/streams/bernoulli]: https://github.com/stdlib-js/random-streams-bernoulli
 
-[@stdlib/random/streams/beta]: https://github.com/stdlib-js/random-streams-beta/tree/deno
+[@stdlib/random/streams/beta]: https://github.com/stdlib-js/random-streams-beta
 
-[@stdlib/random/streams/betaprime]: https://github.com/stdlib-js/random-streams-betaprime/tree/deno
+[@stdlib/random/streams/betaprime]: https://github.com/stdlib-js/random-streams-betaprime
 
-[@stdlib/random/streams/binomial]: https://github.com/stdlib-js/random-streams-binomial/tree/deno
+[@stdlib/random/streams/binomial]: https://github.com/stdlib-js/random-streams-binomial
 
-[@stdlib/random/streams/box-muller]: https://github.com/stdlib-js/random-streams-box-muller/tree/deno
+[@stdlib/random/streams/box-muller]: https://github.com/stdlib-js/random-streams-box-muller
 
-[@stdlib/random/streams/cauchy]: https://github.com/stdlib-js/random-streams-cauchy/tree/deno
+[@stdlib/random/streams/cauchy]: https://github.com/stdlib-js/random-streams-cauchy
 
-[@stdlib/random/streams/chi]: https://github.com/stdlib-js/random-streams-chi/tree/deno
+[@stdlib/random/streams/chi]: https://github.com/stdlib-js/random-streams-chi
 
-[@stdlib/random/streams/chisquare]: https://github.com/stdlib-js/random-streams-chisquare/tree/deno
+[@stdlib/random/streams/chisquare]: https://github.com/stdlib-js/random-streams-chisquare
 
-[@stdlib/random/streams/cosine]: https://github.com/stdlib-js/random-streams-cosine/tree/deno
+[@stdlib/random/streams/cosine]: https://github.com/stdlib-js/random-streams-cosine
 
-[@stdlib/random/streams/discrete-uniform]: https://github.com/stdlib-js/random-streams-discrete-uniform/tree/deno
+[@stdlib/random/streams/discrete-uniform]: https://github.com/stdlib-js/random-streams-discrete-uniform
 
-[@stdlib/random/streams/erlang]: https://github.com/stdlib-js/random-streams-erlang/tree/deno
+[@stdlib/random/streams/erlang]: https://github.com/stdlib-js/random-streams-erlang
 
-[@stdlib/random/streams/exponential]: https://github.com/stdlib-js/random-streams-exponential/tree/deno
+[@stdlib/random/streams/exponential]: https://github.com/stdlib-js/random-streams-exponential
 
-[@stdlib/random/streams/f]: https://github.com/stdlib-js/random-streams-f/tree/deno
+[@stdlib/random/streams/f]: https://github.com/stdlib-js/random-streams-f
 
-[@stdlib/random/streams/frechet]: https://github.com/stdlib-js/random-streams-frechet/tree/deno
+[@stdlib/random/streams/frechet]: https://github.com/stdlib-js/random-streams-frechet
 
-[@stdlib/random/streams/gamma]: https://github.com/stdlib-js/random-streams-gamma/tree/deno
+[@stdlib/random/streams/gamma]: https://github.com/stdlib-js/random-streams-gamma
 
-[@stdlib/random/streams/geometric]: https://github.com/stdlib-js/random-streams-geometric/tree/deno
+[@stdlib/random/streams/geometric]: https://github.com/stdlib-js/random-streams-geometric
 
-[@stdlib/random/streams/gumbel]: https://github.com/stdlib-js/random-streams-gumbel/tree/deno
+[@stdlib/random/streams/gumbel]: https://github.com/stdlib-js/random-streams-gumbel
 
-[@stdlib/random/streams/hypergeometric]: https://github.com/stdlib-js/random-streams-hypergeometric/tree/deno
+[@stdlib/random/streams/hypergeometric]: https://github.com/stdlib-js/random-streams-hypergeometric
 
-[@stdlib/random/streams/improved-ziggurat]: https://github.com/stdlib-js/random-streams-improved-ziggurat/tree/deno
+[@stdlib/random/streams/improved-ziggurat]: https://github.com/stdlib-js/random-streams-improved-ziggurat
 
-[@stdlib/random/streams/invgamma]: https://github.com/stdlib-js/random-streams-invgamma/tree/deno
+[@stdlib/random/streams/invgamma]: https://github.com/stdlib-js/random-streams-invgamma
 
-[@stdlib/random/streams/kumaraswamy]: https://github.com/stdlib-js/random-streams-kumaraswamy/tree/deno
+[@stdlib/random/streams/kumaraswamy]: https://github.com/stdlib-js/random-streams-kumaraswamy
 
-[@stdlib/random/streams/laplace]: https://github.com/stdlib-js/random-streams-laplace/tree/deno
+[@stdlib/random/streams/laplace]: https://github.com/stdlib-js/random-streams-laplace
 
-[@stdlib/random/streams/levy]: https://github.com/stdlib-js/random-streams-levy/tree/deno
+[@stdlib/random/streams/levy]: https://github.com/stdlib-js/random-streams-levy
 
-[@stdlib/random/streams/logistic]: https://github.com/stdlib-js/random-streams-logistic/tree/deno
+[@stdlib/random/streams/logistic]: https://github.com/stdlib-js/random-streams-logistic
 
-[@stdlib/random/streams/lognormal]: https://github.com/stdlib-js/random-streams-lognormal/tree/deno
+[@stdlib/random/streams/lognormal]: https://github.com/stdlib-js/random-streams-lognormal
 
-[@stdlib/random/streams/minstd-shuffle]: https://github.com/stdlib-js/random-streams-minstd-shuffle/tree/deno
+[@stdlib/random/streams/minstd-shuffle]: https://github.com/stdlib-js/random-streams-minstd-shuffle
 
-[@stdlib/random/streams/minstd]: https://github.com/stdlib-js/random-streams-minstd/tree/deno
+[@stdlib/random/streams/minstd]: https://github.com/stdlib-js/random-streams-minstd
 
-[@stdlib/random/streams/mt19937]: https://github.com/stdlib-js/random-streams-mt19937/tree/deno
+[@stdlib/random/streams/mt19937]: https://github.com/stdlib-js/random-streams-mt19937
 
-[@stdlib/random/streams/negative-binomial]: https://github.com/stdlib-js/random-streams-negative-binomial/tree/deno
+[@stdlib/random/streams/negative-binomial]: https://github.com/stdlib-js/random-streams-negative-binomial
 
-[@stdlib/random/streams/normal]: https://github.com/stdlib-js/random-streams-normal/tree/deno
+[@stdlib/random/streams/normal]: https://github.com/stdlib-js/random-streams-normal
 
-[@stdlib/random/streams/pareto-type1]: https://github.com/stdlib-js/random-streams-pareto-type1/tree/deno
+[@stdlib/random/streams/pareto-type1]: https://github.com/stdlib-js/random-streams-pareto-type1
 
-[@stdlib/random/streams/poisson]: https://github.com/stdlib-js/random-streams-poisson/tree/deno
+[@stdlib/random/streams/poisson]: https://github.com/stdlib-js/random-streams-poisson
 
-[@stdlib/random/streams/randi]: https://github.com/stdlib-js/random-streams-randi/tree/deno
+[@stdlib/random/streams/randi]: https://github.com/stdlib-js/random-streams-randi
 
-[@stdlib/random/streams/randn]: https://github.com/stdlib-js/random-streams-randn/tree/deno
+[@stdlib/random/streams/randn]: https://github.com/stdlib-js/random-streams-randn
 
-[@stdlib/random/streams/randu]: https://github.com/stdlib-js/random-streams-randu/tree/deno
+[@stdlib/random/streams/randu]: https://github.com/stdlib-js/random-streams-randu
 
-[@stdlib/random/streams/rayleigh]: https://github.com/stdlib-js/random-streams-rayleigh/tree/deno
+[@stdlib/random/streams/rayleigh]: https://github.com/stdlib-js/random-streams-rayleigh
 
-[@stdlib/random/streams/t]: https://github.com/stdlib-js/random-streams-t/tree/deno
+[@stdlib/random/streams/t]: https://github.com/stdlib-js/random-streams-t
 
-[@stdlib/random/streams/triangular]: https://github.com/stdlib-js/random-streams-triangular/tree/deno
+[@stdlib/random/streams/triangular]: https://github.com/stdlib-js/random-streams-triangular
 
-[@stdlib/random/streams/uniform]: https://github.com/stdlib-js/random-streams-uniform/tree/deno
+[@stdlib/random/streams/uniform]: https://github.com/stdlib-js/random-streams-uniform
 
-[@stdlib/random/streams/weibull]: https://github.com/stdlib-js/random-streams-weibull/tree/deno
+[@stdlib/random/streams/weibull]: https://github.com/stdlib-js/random-streams-weibull
 
 <!-- </toc-links> -->
 
