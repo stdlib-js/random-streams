@@ -4,23 +4,110 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-29)
+## Unreleased (2025-04-07)
 
 <section class="packages">
 
 ### Packages
 
+<section class="package" id="random-streams-betaprime-unreleased">
+
+#### [@stdlib/random/streams/betaprime](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/streams/betaprime)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6213](https://github.com/stdlib-js/stdlib/issues/6213)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="random-streams-discrete-uniform-unreleased">
+
+#### [@stdlib/random/streams/discrete-uniform](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/streams/discrete-uniform)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6213](https://github.com/stdlib-js/stdlib/issues/6213)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="random-streams-laplace-unreleased">
+
+#### [@stdlib/random/streams/laplace](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/streams/laplace)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5933](https://github.com/stdlib-js/stdlib/issues/5933)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 2 issues were closed in this release:
+
+[#5933](https://github.com/stdlib-js/stdlib/issues/5933), [#6213](https://github.com/stdlib-js/stdlib/issues/6213)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="contributors">
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   AlyAbdelmoneim
+-   Athan Reines
 -   Philipp Burckhardt
+-   Pulkit Gupta
 
 </section>
 
@@ -32,6 +119,8 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`9ecb767`](https://github.com/stdlib-js/stdlib/commit/9ecb7670623af1f28ffcb635d6fdf27a630e37e5) - **chore:** fix EditorConfig lint errors [(#6215)](https://github.com/stdlib-js/stdlib/pull/6215) _(by AlyAbdelmoneim)_
+-   [`6010481`](https://github.com/stdlib-js/stdlib/commit/6010481a6f07f206d7b7c491dea4f21c785ea97b) - **chore:** fix EditorConfig lint errors [(#5940)](https://github.com/stdlib-js/stdlib/pull/5940) _(by Pulkit Gupta, Athan Reines)_
 -   [`b87254d`](https://github.com/stdlib-js/stdlib/commit/b87254d4535a3b90bf3d0068750ed6e9ca5dbc85) - **docs:** fix parameter descriptions in Weibull distribution packages _(by Philipp Burckhardt)_
 -   [`a78f7d1`](https://github.com/stdlib-js/stdlib/commit/a78f7d1b859b6b1d7b0bc0ee4daf76789e3e0910) - **style:** add missing spaces _(by Philipp Burckhardt)_
 
