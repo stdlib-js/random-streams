@@ -153,7 +153,7 @@
     "@stdlib/random-base-uniform": "^0.2.2",
     "@stdlib/random-base-weibull": "^0.2.2",
     "@stdlib/streams-node-inspect-sink": "^0.2.3",
-    "@stdlib/string-format": "^0.2.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3",
     "@stdlib/string-replace": "^0.2.3",
     "@stdlib/time-now": "^0.2.3",
     "@stdlib/utils-define-nonenumerable-property": "^0.2.3",
