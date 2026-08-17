@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-29)
+## Unreleased (2026-08-17)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`a103b47`](https://github.com/stdlib-js/stdlib/commit/a103b474ac08bc97bfdeac4674230abc02d17ae5) - **docs:** fix descriptions [(#13696)](https://github.com/stdlib-js/stdlib/pull/13696) _(by Philipp Burckhardt)_
 -   [`cbca832`](https://github.com/stdlib-js/stdlib/commit/cbca832ed0a7783d21723ccc4eda5627fe257878) - **fix:** add missing `prng` option [(#12566)](https://github.com/stdlib-js/stdlib/pull/12566) _(by Philipp Burckhardt)_
 -   [`1eccb1f`](https://github.com/stdlib-js/stdlib/commit/1eccb1f90d38011172e465bac6b178fd815778e3) - **chore:** fix keyword [(#12410)](https://github.com/stdlib-js/stdlib/pull/12410) _(by Philipp Burckhardt)_
 -   [`75a9f4d`](https://github.com/stdlib-js/stdlib/commit/75a9f4dfad0a296d9d57a475e683cf023d977151) - **bench:** refactor to use string interpolation in `@stdlib/random-streams` [(#11422)](https://github.com/stdlib-js/stdlib/pull/11422) _(by Karan Anand)_
